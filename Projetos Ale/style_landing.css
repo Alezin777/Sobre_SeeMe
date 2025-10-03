@@ -220,6 +220,66 @@ body {
   flex-direction: column;
   gap: 0.3em; /* espaçamento justo entre linhas */
 }
+
+/*Parte Quatro*/
+
+/* Seção da equipe */
+
+.section-titulo-team{
+  background-color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.titulo-team {
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #ffffff;
+
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.team-section {
+  background-color: #000;
+  color: #fff;
+}
+
+
+/* Card do perfil */
+.profile-card {
+  margin: 0 auto;
+  max-width: 350px;
+}
+
+/* Faixa com nome e links */
+.profile-header {
+  background-color: #111;
+  padding: 15px;
+  border-radius: 8px 8px 0 0;
+}
+
+.profile-header .nome {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.profile-header .links {
+  font-size: 0.9rem;
+  color: #bbb;
+  margin: 0;
+}
+
+/* Foto de perfil */
+.profile-img {
+  width: 100%;
+  border-radius: 0 0 12px 12px;
+  margin-top: -1px;
+  object-fit: cover;
+}
+
 /*Resposividade do titulo parte 3*/
 @media (max-width: 991px) {
   .titulo-recursos {
