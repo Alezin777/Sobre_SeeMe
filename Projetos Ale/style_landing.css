@@ -289,6 +289,32 @@ body {
   }
 }
 
+/*Quinta Parte*/
+
+/* Cartão de perfil */
+
+
+
+
+/* Links */
+.links-apresentacao a {
+  color: #0077b5; /* Cor azul do LinkedIn */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  font-size: 18px; /* Fonte maior para os links */
+}
+
+.links-apresentacao a:hover {
+  color: #005582;
+  text-decoration: underline;
+}
+
+/* Espaçamento entre os links */
+.links-apresentacao {
+  margin: 8px 0;
+}
+
 /* Responsivo para telas pequenas */
 @media (max-width: 991px) {
   .recursos {
